@@ -1,0 +1,1 @@
+function pipe(){var e=[].slice.call(arguments),r=this;return function(){return e.reduce(function(e,t){return t.apply(r,[].concat(e))},[].slice.call(arguments))}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.pipe=pipe;
